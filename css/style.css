@@ -35,6 +35,12 @@ a:visited {
     height: 30px;
     width: 200px;
 }
+
+.logoImgAbout{
+	background: url("../svg/MG-main.svg") no-repeat center center;
+    height: 50px;
+    width: 300px;
+}
 .navbar-brand{
 	padding:10px 10px;
 }
@@ -178,7 +184,13 @@ a:visited {
 #community-slide1{
 	background: url("../img/cream_pixels.png");
 	background-repeat: repeat;
-	height: 500px;
+	height: 200px;
+}
+
+#about-slide1{
+	background: url("../img/cream_pixels.png");
+	background-repeat: repeat;
+	height: 250px;
 }
 
 
@@ -195,6 +207,15 @@ a:visited {
 	font-size: 16px;
 	font-weight: normal;
 	color: gray;
+}
+
+.about-text{
+	text-align: left;
+	padding: 30px;
+	margin: 30px;
+	font-size: 14px;
+	font-weight: normal;
+	color: black;
 }
 
 
@@ -664,9 +685,16 @@ a:visited {
 }
 
 .titleholder{
-	text-align: center;
-	border-bottom: 2px solid lightgray;
-	padding:2%;
+    text-align: center;
+    border-bottom: 2px solid lightgray;
+    padding: 2%;
+    display: inline-flex;
+    font-size: 32px;
+    color: black;
+    padding-left: 33%;
+    width: 100%;
+    font-weight: lighter;
+    font-family: sans-serif;
 }
 
 .researchLogo{
