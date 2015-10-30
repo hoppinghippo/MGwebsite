@@ -67,7 +67,35 @@ a:visited {
 }
 
 .navbar{
-	height:20px;
+	height:30px;
+	width:100%;
+}
+
+.mavin-site-navbar{
+	height:60px;
+	width:100%;
+	opacity: .8;
+	background-color: white;
+}
+
+.mavin-site-nav{
+	margin-left: 33%;
+	width: 100%;
+}
+
+.mavin-site-nav > li > a{
+	font-size: 18px;
+	color:#101052 !important;
+	padding-top: 20px;
+	font-weight: 300;
+
+}
+
+@media (min-width: 768px){
+	.navbar-right {
+		padding-right: 3%;
+
+	}
 }
 
 * {
@@ -559,10 +587,10 @@ a:visited {
 .photoHolderOne{
 	background-image:url('../img/MG-header.png');
 	background-position: center;
-	height: 400px;
+	height: 379px;
 	width: 100%;
-	box-shadow: 5px 5px 2px #888;
-	margin-bottom: 5px;
+	box-shadow: 7px 7px 4px #888888;
+	margin-bottom: 15px;
 }
 
 
